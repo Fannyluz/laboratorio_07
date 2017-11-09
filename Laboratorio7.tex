@@ -229,7 +229,12 @@ utilizar la opcion Acceder a sitio no seguro.
      
     \item ¿Con que comandos Docker puedo: a) Detener o finalizar un contenedor. b)Eliminar una
 imagen?
-a) Para detener o finalizar un contenedor utilizamos el comando  docker stop
+a) Para detener o finalizar un contenedor utilizamos el comando  \\
+   docker stop
+b) Para poder eliminar las imagenes utilizamos el comando docker  \\
+docker rmi $(docker images -q)
+   
+
 
 
 
