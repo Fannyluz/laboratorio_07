@@ -227,6 +227,10 @@ utilizar la opcion Acceder a sitio no seguro.
 \begin{enumerate}[1.]
     \item  Para que sirven cada una de las opciones del comando docker siguiente:
      
+     -p 1521:1521 es para asignar el puerto para conectarse a la base de datos Oracle.
+     -p 5500:5500
+     -e ORACLE_PWD:oracle oracle/database:12.1.0.2-ee se colocara la contraseña de oracle
+     
     \item ¿Con que comandos Docker puedo: a) Detener o finalizar un contenedor. b)Eliminar una
 imagen?
 a) Para detener o finalizar un contenedor utilizamos el comando  \\
